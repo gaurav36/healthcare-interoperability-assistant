@@ -1,0 +1,23 @@
+[project]
+name = "healthcare-interoperability-assistant"
+version = "0.1.0"
+description = "RAG-based healthcare interoperability assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "uvicorn[standard]>=0.33.0",
+    "fastapi>=0.115.7",
+    "python-multipart>=0.0.10",
+    "pypdf>=4.5.1",
+    "sentence-transformers>=3.5.0",
+    "chromadb>=0.5.5",
+    "python-dotenv>=1.0.0",
+    "openai>=1.60.0",
+    "langchain>=0.3.31",
+    "langchain-community>=0.3.24",
+    "langchain-openai>=0.2.10",
+    "langchain-huggingface>=0.1.0",
+    "langchain-text-splitters>=0.3.3",
+    "langchain-core>=0.3.36",
+    "faiss-cpu>=1.8.1",
+]
